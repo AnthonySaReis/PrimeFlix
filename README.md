@@ -1,73 +1,83 @@
-# Getting Started with Create React App
+## Technology 
+
+Here are the technologies used in this project.
+
+* ReactJs 
+* CSS3
+* HTML5
+* JavaScript
+* Axios
+* ReactToastify
+
+## Services Used
+* TMDB API
+* Github
+
+## Getting started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+* To install the dependecies.
+  - npm install
+  
+* In the project directory, you can run:
+  - npm start
 
-In the project directory, you can run:
+## How to use
 
-### `npm start`
+### 1 - When you access, you will see the Home  <3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Homepage image](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/home.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2 - On the site you can access the details of the movies and add to your list  :D
+ 
+ - On click in Details:
+  
+![Post show](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/detalhes.png)
 
-### `npm test`
+- On Click in Save:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Post show](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/salvar.png)
 
-### `npm run build`
+- If the movie is already saved:.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Post show](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/jaSalvo.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-On Click in Trailer:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Post show](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/trailer.png)
 
-### `npm run eject`
+### 3 - You can access your Favorite List.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Portfolio](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/mylist.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- He has saved in your LocalStorage:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Portfolio](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/filmeSalvoLocalStorage.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_ You can exclude the movie of your list:
 
-## Learn More
+![Portfolio](https://github.com/AnthonySaReis/PrimeFlix/blob/main/public/picsPrimeflix/excluir.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The main features of the application are:
+ - Information of the movies.
+ - Entertainment <3
 
 
-TMDB && AXIOS
+  ## Versioning
+
+  1.0.0.0
+
+## Link
+
+- https://anthonysa-primeflix.netlify.app/
+
+  ## Authors
+
+  * **Anthony Sá Reis** 
+
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
+
