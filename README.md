@@ -8,6 +8,7 @@ Here are the technologies used in this project.
 * JavaScript
 * Axios
 * ReactToastify
+* ReactRouterDom
 
 ## Services Used
 * TMDB API
