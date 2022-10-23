@@ -1,0 +1,86 @@
+.myMovies{
+    min-width: 100px;
+    color: white;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myMovies img{
+    max-width: 180px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.myMovies h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.myMovies span{
+    font-size: 30px;
+}
+
+.myMovies ul{
+    width: 720px;
+}
+
+.myMovies ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px outset #282424;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.myMovies div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.myMovies div a{
+    text-decoration: none;
+    color: #E50914;
+    margin-right: 14px;
+}
+
+.myMovies button{
+    padding: 13px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: #E50914;
+    border: none;
+}
+
+/*Para o grid ter 2 por linha em celulares*/
+@media only screen and (max-width: 600px) {
+    .myMovies ul{
+        max-width: 400px;
+    }
+
+   .myMovies img{
+    max-width: 100px;
+    max-height: 80px;
+   }
+
+    .myMovies h1{
+        font-size: 30px;
+    }
+    
+    .myMovies span{
+       font-size: 15px;
+    }
+    .myMovies button{
+       font-size: 15px;
+    }
+    .myMovies div a{
+       font-size: 15px;
+    }
+}

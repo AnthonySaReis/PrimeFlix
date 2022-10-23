@@ -1,0 +1,59 @@
+.movie-info{
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 10px;
+    color: white;
+}
+
+.movie-info h1{
+    text-align: center;
+    margin: 14px 0;
+}
+
+.movie-info img{
+    border-radius: 8px;
+    width: 1200px;
+    max-width: 100%;
+    max-height: 580px;
+    object-fit: cover;
+}
+
+.movie-info h3{
+    font-size: 24px;
+    margin-top: 14px ;
+}
+
+.movie-info span{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.btn-area button{
+    margin-right: 18px;
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.btn-area button:hover{
+    background-color: #E50914;
+    color: white;
+}
+
+.btn-area a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-area a:hover{
+    color: white
+}
